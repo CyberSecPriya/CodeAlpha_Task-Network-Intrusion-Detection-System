@@ -1,0 +1,5 @@
+Timestamp,SID,Message,Classification,Priority,Protocol,Src IP,Src Port,Dst IP,Dst Port
+06/01-16:35:44.212071,1:1917:6,SCAN UPnP service discover attempt,Detection of a Network Scan,3,UDP,172.21.208.1,53308,239.255.255.250,1900
+06/01-18:21:40.710617,1:1917:6,SCAN UPnP service discover attempt,Detection of a Network Scan,3,UDP,172.21.208.1,63412,239.255.255.250,1900
+06/01-18:52:17.407689,1:1917:6,SCAN UPnP service discover attempt,Detection of a Network Scan,3,UDP,172.21.208.1,55796,239.255.255.250,1900
+06/01-18:56:45.806951,1:1917:6,SCAN UPnP service discover attempt,Detection of a Network Scan,3,UDP,172.21.208.1,61483,239.255.255.250,1900
