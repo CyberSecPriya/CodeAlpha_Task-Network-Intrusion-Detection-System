@@ -163,6 +163,12 @@ These entries confirm detection of both network scans and ICMP traffic.
 
 Additional logs from Snort showing ICMP packet detections (IPv6). These validate that Snort is logging activity correctly in its primary alert log.
 
+5. Snort Alerts by Priority (Bar Chart)
+
+   
+
+This bar chart visualizes the number of Snort alerts based on their priority levels (e.g., Priority 1, 2, 3). It was generated using the ``visualize_alerts.py`` script after parsing Snort logs into a CSV.
+
 # Note
 
 - Make sure to run Snort with sudo or as root to access network interfaces.
