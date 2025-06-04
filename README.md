@@ -133,19 +133,19 @@ Snort will now actively monitor traffic on the specified interface and trigger a
 
 # Output
 
-1. PowerShell Ping Output
+**1. PowerShell Ping Output**
 
 ![Image](https://github.com/user-attachments/assets/2b9c13bb-dbec-4c72-be38-d2f25b8877a6)
    
 This output shows a successful ICMP echo request (ping) from a Windows machine to ``172.21.218.49``. This traffic helps trigger Snort’s ICMP detection rules.
 
-2. Snort Console Alert Output
+**2. Snort Console Alert Output**
 
 ![Image](https://github.com/user-attachments/assets/6810bae8-ad71-4a97-9af5-18a1f9ff9a10)
    
 This output confirms that Snort is actively detecting ICMP packets on interface ``eth0``. The alerts show communication between ``172.21.208.1`` and ``172.21.218.49`` using ICMP (ping).
 
-3. Snort Fast Alert File Output
+**3. Snort Fast Alert File Output**
 
 ![Image](https://github.com/user-attachments/assets/57fed049-98dd-44ef-9192-1a43664591f6)
 
@@ -157,13 +157,13 @@ This shows alerts logged in ``/var/log/snort/snort.alert.fast``. It includes:
 
 These entries confirm detection of both network scans and ICMP traffic.
 
-4. Snort Alert Log Output
+**4. Snort Alert Log Output**
 
 ![Image](https://github.com/user-attachments/assets/451cd6b0-c00b-4821-892e-6d635098be19)
 
 Additional logs from Snort showing ICMP packet detections (IPv6). These validate that Snort is logging activity correctly in its primary alert log.
 
-5. Snort Alerts by Priority (Bar Chart)
+**5. Snort Alerts by Priority (Bar Chart)**
 
 ![Image](https://github.com/user-attachments/assets/640bc6cb-b3a7-4f0d-a966-54197c9aace8) 
 
