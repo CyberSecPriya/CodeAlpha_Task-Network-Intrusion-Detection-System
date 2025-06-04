@@ -165,7 +165,7 @@ Additional logs from Snort showing ICMP packet detections (IPv6). These validate
 
 5. Snort Alerts by Priority (Bar Chart)
 
-   
+![Image](https://github.com/user-attachments/assets/640bc6cb-b3a7-4f0d-a966-54197c9aace8) 
 
 This bar chart visualizes the number of Snort alerts based on their priority levels (e.g., Priority 1, 2, 3). It was generated using the ``visualize_alerts.py`` script after parsing Snort logs into a CSV.
 
